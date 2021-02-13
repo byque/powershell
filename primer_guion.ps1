@@ -4,5 +4,7 @@
 # Recordar que en Windows los guiones se deben guardar con codificación UTF-8
 # con BOM para que la terminal reproduzca correctamente los caracteres.
 
-$mensaje = "¡Felicitaciones! Tu primer guión se ejecutó exitosamente."
-Write-Host $mensaje
+Write-Host "¡Felicitaciones! Tu primer guión se ejecutó exitosamente."
+
+$mensaje = "¡Genial!"
+Write-Host "Tu mensaje es ->" $mensaje "<-"
