@@ -11,3 +11,7 @@ $directorios = Get-ChildItem . |
 foreach ($directorio in $directorios) {
     Write-Host $directorio
 }
+
+# Obtener el nombre del último directorio de la ruta
+$ultimo_directorio = Get-Location | split-path -Leaf
+Write-Host $ultimo_directorio
