@@ -12,6 +12,14 @@ foreach ($directorio in $directorios) {
     Write-Host $directorio
 }
 
+$archivos = Get-ChildItem . |
+            Where-Object {!$_.PSIsContainer} |  # Notar el !
+            ForEach-Object {$_.Name}
+
+foreach ($archivo in $archivos) {
+    Write-Host $archivo
+}
+
 # Obtener el nombre del último directorio de la ruta
 $ultimo_directorio = Get-Location | split-path -Leaf
 Write-Host $ultimo_directorio
