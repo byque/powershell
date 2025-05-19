@@ -1,4 +1,8 @@
 # Solicita permisos de administrador
+Write-Output "Instalar Docker Desktop"
+winget install --id Docker.DockerDesktop --version 4.41.2
+
+# Solicita permisos de administrador
 Write-Output "Instalar Git"
 winget install --id Git.Git --version 2.49.0
 
