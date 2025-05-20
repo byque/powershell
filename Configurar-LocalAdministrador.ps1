@@ -1,16 +1,13 @@
-# Solicita permisos de administrador
+#Requires -RunAsAdministrator
 Write-Output "Instalar Docker Desktop"
 winget install --id Docker.DockerDesktop --version 4.41.2
 
-# Solicita permisos de administrador
 Write-Output "Instalar Git"
 winget install --id Git.Git --version 2.49.0
 
-# Solicita permisos de administrador
 Write-Output "Instalar Joplin"
 winget install --id Joplin.Joplin --version 3.3.12
 
-# Solicita permisos de administrador
 Write-Output "Instalar VirtualBox"
 winget install --id Oracle.VirtualBox --version 7.1.8
 
