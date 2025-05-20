@@ -10,6 +10,3 @@ winget install --id Joplin.Joplin --version 3.3.12
 
 Write-Output "Instalar VirtualBox"
 winget install --id Oracle.VirtualBox --version 7.1.8
-
-Write-Output "Instalar Visual Studio Code"
-winget install --id Microsoft.VisualStudioCode --version 1.100.2
