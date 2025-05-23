@@ -1,4 +1,7 @@
 #Requires -RunAsAdministrator
+Write-Output "Instalar Bitwarden"
+winget intsall --id Bitwarden.Bitwarden
+
 Write-Output "Instalar Docker Desktop"
 winget install --id Docker.DockerDesktop --version 4.41.2
 
