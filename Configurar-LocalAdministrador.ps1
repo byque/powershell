@@ -11,8 +11,11 @@ winget install --id Git.Git --version 2.49.0
 Write-Output "Instalar Joplin"
 winget install --id Joplin.Joplin --version 3.3.12
 
+# En la versión instalada, winget no actualizó de 5.16.0.999 -> 5.16.1.999
+# Se requirió desinstalar y volver a instalar lo que eliminó la configuración
+# Por esta razón se sugiere instalar una vez y actualizar usando la GUI.
 Write-Output "Instalar Surfshark"
-winget install --id Surfshark.Surfshark --version 5.16.0.999
+winget install --id Surfshark.Surfshark
 
 Write-Output "Instalar Vagrant"
 winget install --id Hashicorp.Vagrant --version 2.4.5
