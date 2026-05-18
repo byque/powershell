@@ -28,3 +28,6 @@ winget install --id Hashicorp.Vagrant --version 2.4.5
 
 Write-Output "Instalar VirtualBox"
 winget install --id Oracle.VirtualBox --version 7.1.8
+
+Write-Output "Instalar WireGuard"
+winget install --id WireGuard.WireGuard --version 1.1
