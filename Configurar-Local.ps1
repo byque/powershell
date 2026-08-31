@@ -1,3 +1,6 @@
+Write-Output "Instalar Claude"
+winget install --id Anthropic.Claude --version 1.30096.1
+
 Write-Output "Instalar GitHub Desktop"
 winget install --id GitHub.GitHubDesktop
 
