@@ -12,7 +12,7 @@ Write-Output "Instalar Joplin"
 winget install --id Joplin.Joplin --version 3.3.12
 
 Write-Output "Instalar PyCharm"
-winget install --id JetBrains.PyCharm --version 2025.1.2
+winget install --id JetBrains.PyCharm --version 2026.2.1
 
 Write-Output "Instalar Python"
 winget install --id Python.Python.3.13 --version 3.13.5
